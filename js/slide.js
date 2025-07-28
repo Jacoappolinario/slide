@@ -63,7 +63,6 @@ export default class Slide {
     } else {
       this.changeSlide(this.index.active);
     }
-    console.log(this.dist.movement);
   }
 
   addSlideEvents() {
@@ -119,7 +118,6 @@ export default class Slide {
   }
 
   onResize() {
-    console.log("teste");
     setTimeout(() => {
       this.slidesConfig();
       this.changeSlide(this.index.active);
